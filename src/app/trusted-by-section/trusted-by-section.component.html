@@ -1,0 +1,23 @@
+<div class="trusted-section">
+  <div class="header">
+    <h2>
+      <strong>Trusted by industry leaders</strong>
+      <span class="highlight">worldwide</span>
+    </h2>
+    <button class="btn-read-stories">Read customer stories</button>
+  </div>
+
+  <div class="logos">
+    <img *ngFor="let logo of logos" [src]="logo.src" [alt]="logo.alt" />
+  </div>
+
+  <div class="testimonials">
+    <div class="testimonial-card" *ngFor="let testimonial of testimonials">
+      <p class="quote">“{{testimonial.quote}}”</p>
+      <p class="author">
+        <strong>{{testimonial.name}}</strong><br />
+        <small>{{testimonial.position}}</small>
+      </p>
+    </div>
+  </div>
+</div>
