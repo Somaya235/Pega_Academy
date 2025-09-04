@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0b0c2a, #101633);
+    color: white;
+}
+
+.logo {
+    padding-right: 80px;
+}
+.form-select {
+    background-color: #0a0c23;
+    color: white;
+    border: 0px;
+
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #0a0c23, #000010);
+}
+.top-banner {
+    background: linear-gradient(to bottom, #0a0c23, #000010);
+    padding: 15px 0;
+    color: white;
+    position: relative;
+}
+
+.top-banner .nav .nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.top-banner .nav .nav-link:hover {
+    text-decoration: underline;
+}
