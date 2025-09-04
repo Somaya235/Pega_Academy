@@ -1,0 +1,131 @@
+.container {
+  background-color: transparent;
+  color: #fff;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: transparent;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gartner .text-content h2 {
+  font-weight: bold;
+}
+
+.gartner .text-content h3 {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.gartner .text-content .link {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.gartner .image-content img {
+  max-height: 150px;
+  margin-left: 1rem;
+}
+
+.meet-mendix {
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+.meet-mendix h2 {
+  font-weight: 700;
+}
+
+.meet-mendix .link {
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  background: transparent;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.feature-item .icon {
+  font-size: 1.5rem;
+}
+
+.mendix-ai {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.text-side .subtitle {
+  color: #0bc5c8;
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+h3,h2,h1{
+  color: #fff;
+}
+
+.text-side h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-side ul {
+  list-style: none;
+  padding: 0;
+}
+
+.text-side ul li {
+  margin-bottom: 1rem;
+}
+
+.text-side ul li strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.text-side ul li p {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.logo-side img {
+  max-width: 300px;
+  object-fit: contain;
+}
